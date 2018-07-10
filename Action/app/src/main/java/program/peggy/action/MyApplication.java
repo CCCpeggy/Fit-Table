@@ -7,7 +7,7 @@ public class MyApplication extends Application {
     private static MyApplication mInstance;
     public static SQLiteDatabase db=null;
     public final static String SQLiteDB_Path="fitness_project.db";
-
+    public final static int ADD_ACTION_PAGE_INDEX=34564;
     public static synchronized MyApplication getInstance(){
         return mInstance;
     }

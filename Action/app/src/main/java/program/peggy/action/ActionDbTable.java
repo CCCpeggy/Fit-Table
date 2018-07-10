@@ -28,11 +28,21 @@ public class ActionDbTable extends DbTable{
         super.InsertData(row,inform);
     }
 
+    public void AddTestData(){
+        String[] Name={"臥推","A","B","C","D"};
+        int[] Part={5,4,3,2,1};
+        for(int i=0;i<Name.length;i++){
+            InsertData(Name[i],Part[i]);
+        }
+    }
+
+
     public ActionClass getData(int id){
         Cursor cursor= super.getCursorById(id);
         ActionClass data=new ActionClass(cursor.getInt(0),cursor.getString(1),cursor.getInt(2));
         return data;
     }
+
 
 
 

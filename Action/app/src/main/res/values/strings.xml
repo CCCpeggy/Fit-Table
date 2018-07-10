@@ -7,6 +7,14 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
     <string name="Caction">動作</string>
+    <string name="AddCaction">新增動作</string>
     <string name="CTable">課表</string>
+    <string name="AddCTable">新增課表</string>
     <string name="CStatistics">統計</string>
+    <string name="AddCStatistics">新增統計</string>
+    <string name="hand">手</string>
+    <string name="leg">腿</string>
+    <string name="shoulder">肩</string>
+    <string name="back">背</string>
+    <string name="chest">胸</string>
 </resources>
